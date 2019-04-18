@@ -10,6 +10,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_in_Action$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1555554446215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/ML_in_Action$DecisionTree.coverage" NAME="DecisionTree Coverage Results" MODIFIED="1555589312567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decision Tree" />
     <SUITE FILE_PATH="coverage/ML_in_Action$KNN_test02.coverage" NAME="KNN_test02 Coverage Results" MODIFIED="1555572633521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN/海伦女士例子" />
     <SUITE FILE_PATH="coverage/ML_in_Action$KNN_test04.coverage" NAME="KNN_test04 Coverage Results" MODIFIED="1555582080338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN/数字识别" />
   </component>
@@ -20,29 +21,30 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4441" />
+          <entry key="py" value="6009" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4441" />
+          <entry key="Python" value="6009" />
         </counts>
       </usages-collector>
     </session>
@@ -50,25 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KNN/海伦女士例子/KNN_test02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4642">
-              <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1555572712308" expanded="true" signature="273:278" ph="..." />
-                <marker date="1555572712308" expanded="true" signature="967:972" ph="..." />
-                <marker date="1555572712308" expanded="true" signature="6562:7152" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KNN/数字识别/KNN_test04.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
-              <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1555582105214" expanded="true" signature="180:185" ph="..." />
@@ -78,17 +65,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Decision Tree/DecisionTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="74" column="56" lean-forward="true" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+              <folding>
+                <marker date="1555589170493" expanded="true" signature="173:174" ph="..." />
+                <marker date="1555589170493" expanded="true" signature="824:865" ph="..." />
+                <marker date="1555589170493" expanded="true" signature="1695:2475" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN/数字识别/trainingDigits/0_0.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/1-Anaconda/AnacondaInstall/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="6402">
               <caret line="292" selection-start-line="292" selection-end-line="292" />
             </state>
           </provider>
@@ -162,6 +161,7 @@
         <option value="$PROJECT_DIR$/KNN/KNN.py" />
         <option value="$PROJECT_DIR$/KNN/海伦女士例子/KNN_test02.py" />
         <option value="$PROJECT_DIR$/KNN/数字识别/KNN_test04.py" />
+        <option value="$PROJECT_DIR$/Decision Tree/DecisionTree.py" />
       </list>
     </option>
   </component>
@@ -172,8 +172,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
-    <option name="y" value="-28" />
+    <option name="x" value="36" />
+    <option name="y" value="-29" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -182,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,28 +189,11 @@
               <item name="ML-in-Action" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML-in-Action" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ML-in-Action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-in-Action" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-in-Action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-in-Action" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
-              <item name="数字识别" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-in-Action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-in-Action" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
-              <item name="数字识别" type="462c0819:PsiDirectoryNode" />
-              <item name="trainingDigits" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +214,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KNN_test04">
+  <component name="RunManager" selected="Python.DecisionTree">
+    <configuration name="DecisionTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML-in-Action" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Decision Tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decision Tree/DecisionTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,9 +307,11 @@
       <item itemvalue="Python.KNN" />
       <item itemvalue="Python.KNN_test02" />
       <item itemvalue="Python.KNN_test04" />
+      <item itemvalue="Python.DecisionTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecisionTree" />
         <item itemvalue="Python.KNN_test04" />
         <item itemvalue="Python.KNN_test02" />
         <item itemvalue="Python.KNN" />
@@ -327,14 +333,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13654618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13788487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20704225" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19295774" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2577465" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19295774" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -362,10 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="43" column="33" selection-start-line="17" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1555555359722" expanded="true" signature="362:367" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,6 +385,32 @@
           <caret line="1242" selection-start-line="1242" selection-end-line="1242" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/海伦女士例子/KNN_test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4554">
+          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1555572712308" expanded="true" signature="273:278" ph="..." />
+            <marker date="1555572712308" expanded="true" signature="967:972" ph="..." />
+            <marker date="1555572712308" expanded="true" signature="6562:7152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/数字识别/trainingDigits/0_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/1-Anaconda/AnacondaInstall/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6402">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/数字识别/trainingDigits/0_11.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/1-Anaconda/AnacondaInstall/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,34 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/海伦女士例子/datingTestSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/海伦女士例子/KNN_test02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4642">
-          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1555572712308" expanded="true" signature="273:278" ph="..." />
-            <marker date="1555572712308" expanded="true" signature="967:972" ph="..." />
-            <marker date="1555572712308" expanded="true" signature="6562:7152" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/数字识别/trainingDigits/0_11.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/数字识别/trainingDigits/0_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
-    </entry>
     <entry file="file://D:/1-Anaconda/AnacondaInstall/Lib/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -439,21 +440,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/1-Anaconda/AnacondaInstall/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/KNN/海伦女士例子/datingTestSet.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KNN/数字识别/KNN_test04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1555582105214" expanded="true" signature="180:185" ph="..." />
             <marker date="1555582105214" expanded="true" signature="467:472" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decision Tree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="74" column="56" lean-forward="true" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <folding>
+            <marker date="1555589170493" expanded="true" signature="173:174" ph="..." />
+            <marker date="1555589170493" expanded="true" signature="824:865" ph="..." />
+            <marker date="1555589170493" expanded="true" signature="1695:2475" ph="..." />
           </folding>
         </state>
       </provider>
