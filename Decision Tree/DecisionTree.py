@@ -1,4 +1,5 @@
 from math import log
+import operator
 
 def createDataSet():
     # 数据集特征
@@ -22,8 +23,7 @@ def createDataSet():
                [2, 1, 0, 1, 'yes'],
                [2, 1, 0, 2, 'yes'],
                [2, 0, 0, 0, 'no']]
-
-    labels = ['不放贷', '放贷']  # 分类属性
+    labels = ['年龄', '有工作', '有自己的房子', '信贷情况']  # 特征标签
 
     return dataSet, labels
 
@@ -53,7 +53,7 @@ def splitDataSet(dataSet, axis, value):
     for featVec in dataSet:
         if featVec[axis] == value:
             reducedFeatVec = featVec[:axis]
-            reducedFeatVec.extend(featVec[axis+1:])  # 意思就是reducedFeatVec里面存放除了featVec[axis]那一行的数据
+            reducedFeatVec.extend(featVec[axis+1:])  # 意思就是reducedFeatVec里面存放除了featVec[axis]那一行的数据  # 去除axis特征
             retDataSet.append(reducedFeatVec)
     return retDataSet
 
@@ -86,10 +86,46 @@ def chooseBestTeatureToSplit(dataSet):
 
 
 
+# 统计classList中出现此处最多的元素（类标签）
+def majorityCnt(classList):
+    classCount = {}
+    for vote in classList:
+        if vote not in classCount.keys():classCount[vote] = 0
+        classCount[vote] += 1
+    sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1), reverse=True)
+    return sortedClassCount[0][0]
+
+
+# 创建决策树
+'''
+dataSet:训练集
+labels：分类属性标签
+feetLabels：存储选择的最优特征标签
+'''
+def createTree(dataSet, labels, featLabels):
+    classList = [example[-1] for example in dataSet]
+    if classList.count(classList[0]) == len(classList):  # 类别全是相同的
+        return classList[0]
+    if len(dataSet[0]) == 1:
+        return majorityCnt(classList)
+    bestFeat = chooseBestTeatureToSplit(dataSet)
+    bestFeatLabel = labels[bestFeat]
+    featLabels.append(bestFeatLabel)
+    myTree = {bestFeatLabel:{}}
+    del(labels[bestFeat])  # 将labels里面的bestFeat删除
+    featValues = [example[bestFeat] for example in dataSet]
+    uniqueVals = set(featValues)
+    for value in uniqueVals:
+        myTree[bestFeatLabel][value] = createTree(splitDataSet(dataSet, bestFeat, value), labels, featLabels)
+    return myTree
 
 
 if __name__ == '__main__':
-    dataSet, features = createDataSet()
-    print('最优特征索引值：' + str(chooseBestTeatureToSplit(dataSet)))
+    dataSet, labels = createDataSet()
+    # print('最优特征索引值：' + str(chooseBestTeatureToSplit(dataSet)))
     # print(dataSet)
     # print(calcShannonEnt(dataSet))
+
+    featLabels = []
+    myTree = createTree(dataSet, labels, featLabels)
+    print(myTree)

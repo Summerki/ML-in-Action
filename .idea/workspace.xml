@@ -10,70 +10,62 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_in_Action$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1555554446215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
-    <SUITE FILE_PATH="coverage/ML_in_Action$DecisionTree.coverage" NAME="DecisionTree Coverage Results" MODIFIED="1555589312567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decision Tree" />
+    <SUITE FILE_PATH="coverage/ML_in_Action$DecisionTree.coverage" NAME="DecisionTree Coverage Results" MODIFIED="1555674101671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decision Tree" />
     <SUITE FILE_PATH="coverage/ML_in_Action$KNN_test02.coverage" NAME="KNN_test02 Coverage Results" MODIFIED="1555572633521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN/海伦女士例子" />
+    <SUITE FILE_PATH="coverage/ML_in_Action$NavieBayes.coverage" NAME="NavieBayes Coverage Results" MODIFIED="1556097583122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NavieBayes" />
     <SUITE FILE_PATH="coverage/ML_in_Action$KNN_test04.coverage" NAME="KNN_test04 Coverage Results" MODIFIED="1555582080338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN/数字识别" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="203237843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="16" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6009" />
+          <entry key="py" value="10466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6009" />
+          <entry key="Python" value="10466" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KNN/数字识别/KNN_test04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1555582105214" expanded="true" signature="180:185" ph="..." />
-                <marker date="1555582105214" expanded="true" signature="467:472" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Decision Tree/DecisionTree.py">
+        <entry file="file://$PROJECT_DIR$/NavieBayes/NavieBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="74" column="56" lean-forward="true" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+            <state relative-caret-position="276">
+              <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
               <folding>
-                <marker date="1555589170493" expanded="true" signature="173:174" ph="..." />
-                <marker date="1555589170493" expanded="true" signature="824:865" ph="..." />
-                <marker date="1555589170493" expanded="true" signature="1695:2475" ph="..." />
+                <element signature="e#52#70#0" expanded="true" />
+                <element signature="e#1600#1607#0" />
+                <element signature="e#3392#3399#0" />
+                <marker date="1556097532100" expanded="true" signature="202:203" ph="..." />
+                <marker date="1556097532100" expanded="true" signature="1607:1612" ph="..." />
+                <marker date="1556097532100" expanded="true" signature="3387:3392" ph="..." />
+                <marker date="1556097532100" expanded="true" signature="4203:4935" ph="..." />
               </folding>
             </state>
           </provider>
@@ -162,6 +154,8 @@
         <option value="$PROJECT_DIR$/KNN/海伦女士例子/KNN_test02.py" />
         <option value="$PROJECT_DIR$/KNN/数字识别/KNN_test04.py" />
         <option value="$PROJECT_DIR$/Decision Tree/DecisionTree.py" />
+        <option value="$PROJECT_DIR$/Decision Tree/DecisionTreeUsingMatplotlib.py" />
+        <option value="$PROJECT_DIR$/NavieBayes/NavieBayes.py" />
       </list>
     </option>
   </component>
@@ -171,9 +165,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="36" />
-    <option name="y" value="-29" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="35" />
+    <option name="y" value="-30" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -198,6 +192,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
@@ -214,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DecisionTree">
+  <component name="RunManager" selected="Python.NavieBayes">
     <configuration name="DecisionTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,14 +298,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="NavieBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML-in-Action" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NavieBayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NavieBayes/NavieBayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.KNN" />
       <item itemvalue="Python.KNN_test02" />
       <item itemvalue="Python.KNN_test04" />
       <item itemvalue="Python.DecisionTree" />
+      <item itemvalue="Python.NavieBayes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NavieBayes" />
         <item itemvalue="Python.DecisionTree" />
         <item itemvalue="Python.KNN_test04" />
         <item itemvalue="Python.KNN_test02" />
@@ -332,16 +351,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13788487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14323963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2577465" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19295774" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08873239" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2169014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -390,11 +409,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4554">
           <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/数字识别/KNN_test04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decision Tree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1555572712308" expanded="true" signature="273:278" ph="..." />
-            <marker date="1555572712308" expanded="true" signature="967:972" ph="..." />
-            <marker date="1555572712308" expanded="true" signature="6562:7152" ph="..." />
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1555674101664" expanded="true" signature="189:190" ph="..." />
+            <marker date="1555674101664" expanded="true" signature="857:898" ph="..." />
+            <marker date="1555674101664" expanded="true" signature="1740:3632" ph="..." />
+            <marker date="1555674101664" expanded="true" signature="2959:3632" ph="..." />
           </folding>
         </state>
       </provider>
@@ -447,26 +481,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/数字识别/KNN_test04.py">
+    <entry file="file://$PROJECT_DIR$/Decision Tree/DecisionTreeUsingMatplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        <state relative-caret-position="598">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1555582105214" expanded="true" signature="180:185" ph="..." />
-            <marker date="1555582105214" expanded="true" signature="467:472" ph="..." />
+            <element signature="e#0#50#0" expanded="true" />
+            <marker date="1555760087213" expanded="true" signature="169:170" ph="..." />
+            <marker date="1555760087213" expanded="true" signature="785:786" ph="..." />
+            <marker date="1555760087213" expanded="true" signature="4850:4855" ph="..." />
+            <marker date="1555760087213" expanded="true" signature="5159:5164" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Decision Tree/DecisionTree.py">
+    <entry file="file://$PROJECT_DIR$/NavieBayes/NavieBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="74" column="56" lean-forward="true" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+        <state relative-caret-position="276">
+          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
           <folding>
-            <marker date="1555589170493" expanded="true" signature="173:174" ph="..." />
-            <marker date="1555589170493" expanded="true" signature="824:865" ph="..." />
-            <marker date="1555589170493" expanded="true" signature="1695:2475" ph="..." />
+            <element signature="e#52#70#0" expanded="true" />
+            <element signature="e#1600#1607#0" />
+            <element signature="e#3392#3399#0" />
+            <marker date="1556097532100" expanded="true" signature="202:203" ph="..." />
+            <marker date="1556097532100" expanded="true" signature="1607:1612" ph="..." />
+            <marker date="1556097532100" expanded="true" signature="3387:3392" ph="..." />
+            <marker date="1556097532100" expanded="true" signature="4203:4935" ph="..." />
           </folding>
         </state>
       </provider>
