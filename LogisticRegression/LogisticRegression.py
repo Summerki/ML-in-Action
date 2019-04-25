@@ -2,6 +2,8 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
+import random
+from matplotlib.font_manager import FontProperties
 
 # testSet.txt文件说明
 # 第一列-》X轴数值
@@ -122,11 +124,37 @@ def plotBestFit(weights):
     plt.ylabel('x2')
     plt.show()
 
+# 改进1：将原来使用的梯度上升法更改为随机梯度上升法
+# 随机梯度上升法：每次更新回归系数时不用所有样本，有效减小计算量
+def stoGradAscent1(dataMatrix, classLabels, numIter = 150):
+    m, n = np.shape(dataMatrix)
+    weights = np.ones(n)
+    for j in range(numIter):
+        dataIndex = list(range(m))
+        for i in range(m):
+            # alpha在每次迭代的时候都会调整，并且，虽然alpha会随着迭代次数不断减小，但永远不会减小到0，因为这里还存在一个常数项
+            alpha = 4 / (1.0 + j + i) + 0.01  # 降低alpha的大小，每次减小1/(j+i)
+            # random.uniform:http://www.runoob.com/python/func-number-uniform.html
+            randIndex = int(random.uniform(0, len(dataIndex)))
+            h = sigmod(sum(dataMatrix[randIndex]*weights))
+            error = classLabels[randIndex] - h
+            weights = weights + alpha * error * dataMatrix[randIndex]
+            del(dataIndex[randIndex])  # 删除已使用的样本
+    return weights
+
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
     # plotDataSet()
     dataMat, labelMat = loadDataSet()
     # print(gradAscent(dataMat, labelMat))
-    weights = gradAscent(dataMat, labelMat)
+    # weights = gradAscent(dataMat, labelMat)
+
+    weights = stoGradAscent1(np.array(dataMat), labelMat)
     plotBestFit(weights)
